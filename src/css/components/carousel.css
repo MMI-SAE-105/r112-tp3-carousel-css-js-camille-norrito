@@ -69,6 +69,6 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
   /* Aligne l'élément au centre lors du défilement - https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-align */
 }
 
-.carousel__item img {
+.carousel__item img {display: block;
   /* Affiche l'image comme un bloc - https://developer.mozilla.org/fr/docs/Web/CSS/display */
 }
