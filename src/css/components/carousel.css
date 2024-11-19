@@ -29,7 +29,13 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
   /* Centre les éléments enfants horizontalement - https://developer.mozilla.org/fr/docs/Web/CSS/justify-content */
   /* Marge de 16px en haut et en bas - https://developer.mozilla.org/fr/docs/Web/CSS/margin */
 }
-.carousel__button {
+.carousel__button {width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  border-radius: 50%;
   /* Largeur du bouton 50px - https://developer.mozilla.org/fr/docs/Web/CSS/width */
   /* Hauteur du bouton 50px - https://developer.mozilla.org/fr/docs/Web/CSS/height */
   /* Utilise flexbox pour aligner le contenu du bouton - https://developer.mozilla.org/fr/docs/Web/CSS/display */
@@ -39,6 +45,7 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
   /* Bordure arrondie pour faire un cercle - https://developer.mozilla.org/fr/docs/Web/CSS/border-radius */
 }
 .carousel__button--prev {
+  
   /* Fait pivoter le bouton de 180 degrés - https://developer.mozilla.org/fr/docs/Web/CSS/transform */
 }
 
