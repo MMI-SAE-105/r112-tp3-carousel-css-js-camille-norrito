@@ -63,7 +63,8 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
   /* Définit le type de défilement pour accrocher les éléments - https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-type */
 }
 
-.carousel__item {
+.carousel__item {flex: 1 0 260px;
+  scroll-snap-align: center;
   /* L'élément prend 1 part de l'espace disponible, ne rétrécit pas, et a une largeur de base de 260px - https://developer.mozilla.org/fr/docs/Web/CSS/flex */
   /* Aligne l'élément au centre lors du défilement - https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-align */
 }
