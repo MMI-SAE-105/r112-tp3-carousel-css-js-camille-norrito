@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom : Norrito
+- prénom : Camille
+- URL Netlify : https://deft-daifuku-f2cdd1.netlify.app/ 
 
 # Travail
 
